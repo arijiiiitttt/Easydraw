@@ -27,7 +27,7 @@ export default function App() {
         Scroll back to content
       </div>
 
-      {/* Action Buttons: Share & Export in Row */}
+      {/* Share & Export*/}
       <div className="absolute top-4 right-4 flex items-center gap-4">
         <button
           className="px-4 py-1 bg-indigo-700 text-sm hover:bg-indigo-500 text-white rounded-md shadow"
