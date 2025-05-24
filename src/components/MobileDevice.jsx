@@ -26,11 +26,6 @@ const MobileDevice = () => {
           Please switch to a larger screen device (tablet or desktop).
         </p>
       </div>
-
-      {/* Watermark / Footer */}
-      <div className="absolute bottom-4 right-4 text-sm text-blue-500 font-semibold">
-        WPOven
-      </div>
     </div>
   );
 };
