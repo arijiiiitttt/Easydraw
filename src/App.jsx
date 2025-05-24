@@ -1,12 +1,20 @@
-import React from 'react'
-import MainProject from './components/MainProject'
+import React from 'react';
+import MainProject from './components/MainProject';
+import useDeviceType from './components/useDeviceType';
+import MobileDevice from './components/MobileDevice';
 
 const App = () => {
+  const isMobile = useDeviceType();
+
   return (
     <>
-    <MainProject/>
+      {isMobile ? (
+       <MobileDevice/>
+      ) : (
+        <MainProject />
+      )}
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
